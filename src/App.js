@@ -1,9 +1,14 @@
 import "./App.css";
+import { Footer } from "./components/Footer";
+import Header from "./components/Header";
 
 function App() {
   return (
     <div className="App">
-      <h1 className="bg-warning text-center">React SPA training</h1>
+      {/* <Header /> */}
+      <Header company="Chase" />
+      <h3>Component goes here..</h3>
+      <Footer />
     </div>
   );
 }
