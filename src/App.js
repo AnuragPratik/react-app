@@ -1,4 +1,5 @@
 import "./App.css";
+import ContextDemo from "./components/contextapi/ContextDemo";
 import { Footer } from "./components/Footer";
 import Header from "./components/Header";
 import ChildParentInvoke from "./components/intercomp/ChildParentInvoke";
@@ -19,7 +20,8 @@ function App() {
       {/* <PureDemo /> */}
       {/* <ChildParentInvoke /> */}
       {/* <CompLifeCycle /> */}
-      <WeatherComponent />
+      {/* <WeatherComponent /> */}
+      <ContextDemo />
       <Footer />
     </div>
   );
