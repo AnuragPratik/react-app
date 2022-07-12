@@ -66,4 +66,28 @@ class Child extends Component {
     );
     return props.dataProp % 2 === 0; // update only on even counters, some business logic
   }
+
+  // 6. componentDidUpdate
+  componentDidUpdate() {
+    // you can access real DOM - JS, jquery plugins
+    // fired every time
+    console.log(
+      `In componentDidUpdate (data): ${
+        document.getElementById("txt1").innerText
+      }`
+    );
+  }
+
+  // 7. componentDidCatch
+  componentDidCatch(error) {
+    // remote logging by calling api
+    console.log(`Some error occurred: ${error}`);
+  }
+
+  // 8. componentWillUnmount
+  componentWillUnmount() {
+    // fired only once
+    // avoid memory leaks, unsubscribe websocket /observables (rx), clean cache
+    console.log(`Child component unmounted from VDOM`);
+  }
 }
