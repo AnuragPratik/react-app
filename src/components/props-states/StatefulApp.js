@@ -44,7 +44,6 @@ export default class StatefulApp extends Component {
 
 //Presentation
 const TableRow = (props) => {
-  console.log(props);
   return (
     <tr>
       <td>{props.dataProps.id}</td>
