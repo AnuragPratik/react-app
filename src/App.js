@@ -3,6 +3,7 @@ import ContextDemo from "./components/contextapi/ContextDemo";
 import { Footer } from "./components/Footer";
 import Header from "./components/Header";
 import Button from "./components/hooks/Button";
+import DataLoader from "./components/hooks/DataLoader";
 import ChildParentInvoke from "./components/intercomp/ChildParentInvoke";
 import CompLifeCycle from "./components/lifecycle/CompLifeCycle";
 import WeatherComponent from "./components/lifecycle/Weather";
@@ -23,7 +24,8 @@ function App() {
       {/* <CompLifeCycle /> */}
       {/* <WeatherComponent /> */}
       {/* <ContextDemo /> */}
-      <Button />
+      {/* <Button /> */}
+      <DataLoader />
       <Footer />
     </div>
   );
