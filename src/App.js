@@ -4,6 +4,7 @@ import { Footer } from "./components/Footer";
 import Header from "./components/Header";
 import Button from "./components/hooks/Button";
 import DataLoader from "./components/hooks/DataLoader";
+import TestuseFetch from "./components/hooks/TestuseFetch";
 import ChildParentInvoke from "./components/intercomp/ChildParentInvoke";
 import CompLifeCycle from "./components/lifecycle/CompLifeCycle";
 import WeatherComponent from "./components/lifecycle/Weather";
@@ -25,7 +26,8 @@ function App() {
       {/* <WeatherComponent /> */}
       {/* <ContextDemo /> */}
       {/* <Button /> */}
-      <DataLoader />
+      {/* <DataLoader /> */}
+      <TestuseFetch />
       <Footer />
     </div>
   );
