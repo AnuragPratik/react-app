@@ -2,6 +2,7 @@ import "./App.css";
 import ContextDemo from "./components/contextapi/ContextDemo";
 import { Footer } from "./components/Footer";
 import Header from "./components/Header";
+import ButtonComponent from "./components/hoc/ButtonComponent";
 import Button from "./components/hooks/Button";
 import DataLoader from "./components/hooks/DataLoader";
 import TestuseFetch from "./components/hooks/TestuseFetch";
@@ -29,7 +30,8 @@ function App() {
       {/* <Button /> */}
       {/* <DataLoader /> */}
       {/* <TestuseFetch /> */}
-      <SpaApp />
+      {/* <SpaApp /> */}
+      <ButtonComponent />
       <Footer />
     </div>
   );
