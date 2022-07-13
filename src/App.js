@@ -17,7 +17,7 @@ function App() {
     <div className="App">
       {/* <Header /> */}
       <Header company="ACME" />
-      {/* <h3>Component goes here..</h3> */}
+      <h3>Component goes here..</h3>
       {/* <StatefulApp /> */}
       {/* <TextInput /> */}
       {/* <PureDemo /> */}
@@ -27,7 +27,7 @@ function App() {
       {/* <ContextDemo /> */}
       {/* <Button /> */}
       {/* <DataLoader /> */}
-      <TestuseFetch />
+      {/* <TestuseFetch /> */}
       <Footer />
     </div>
   );

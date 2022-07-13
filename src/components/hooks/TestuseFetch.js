@@ -12,7 +12,7 @@ const TestuseFetch = (props) => {
   if (data) {
     return (
       <div className="container bg-success">
-        <h2>Data from rest api usign custom hook.</h2>
+        <h2>Data from rest api using custom hook.</h2>
         <ul className="list-group">
           {data.map((el) => (
             <li key={el.id} className="list-group-item list-group-item-primary">
